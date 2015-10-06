@@ -25,6 +25,7 @@ class ProcessSale {
         print $product->name." Обрабатывается...<br>";
         foreach ($this->callbacks as $callback) {
             call_user_func($callback, $product); // выводим каждую функцию, и передаём ей объект класса Product
+            //$callback($product); // аналогично
         }
 
     }

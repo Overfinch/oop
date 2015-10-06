@@ -96,6 +96,7 @@ interface Chargeable { // интерфейс, все классы которые
 
 class CDProduct extends ShopProduct {
     private $playLenght;
+    public static $coverUrl = "http://";
 
     function __construct($title, $firstName, $mainName, $price, $playLenght){
         parent::__construct($title, $firstName, $mainName, $price);
@@ -135,6 +136,7 @@ class BookProduct extends ShopProduct{
     function getPrice(){
         return $this->price;
     }
+
 }
 
 abstract class ShopProductWriter{ // абстрактный класс для сбора обьектов и вывода базовой информации
@@ -178,15 +180,16 @@ class TextProductWriter extends ShopProductWriter { // выводит свойс
     }
 }
 
+echo "<pre>";
 
 $pdo = new PDO('mysql:host=localhost;dbname=matt','root',''); // инициализируем PDO
+
 $obj = ShopProduct::getInstance(1, $pdo); // создание нового обьекта через фабрику, достаём из БД по id
-echo $obj->getSummaryLine();
-
-
-$cd = new CDProduct('title', 'First', 'Main', 100, 120); // создание новго обьекта через конструктор
+$cd = new CDProduct('Harakiri', 'Serj', 'Tankian', 100, 120); // создание новго обьекта через конструктор
 
 $text = new TextProductWriter(); // новый обьект класса TextProductWriter()
 $text->addProduct($cd); // добавляем в массив обьект $cd
 $text->addProduct($obj); // добавляем в массив обьект $obj
 $text->write(); // выводим свойства обьектов из массива
+
+echo "</pre>";
