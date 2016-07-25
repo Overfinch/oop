@@ -1,5 +1,7 @@
 <?php
-    
+
+// коммит на Github Desktop
+
 class PC {
     
     public $CPU;
