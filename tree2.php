@@ -10,7 +10,8 @@ class TreeOX2 {
  
     public function __construct() {
         //Подключаемся к базе данных, и записываем подключение в переменную _db
-        $this->_db = new PDO("mysql:dbname=ox2.ru-test-base;host=localhost", "root", "");
+        $this->_db = new PDO("mysql:dbname=tree;host=localhost", "root", "");
+        $this->_db->query("SET NAMES utf8"); // костыль для отображения кирилицы в UTF-8
         //В переменную $_category_arr записываем все категории (см. ниже)
         $this->_category_arr = $this->_getCategory();
     }
@@ -22,7 +23,7 @@ class TreeOX2 {
      * @return Array 
      */
     private function _getCategory() {
-        $query = $this->_db->prepare("SELECT * FROM `category`"); //Готовим запрос
+        $query = $this->_db->prepare("SELECT * FROM `categories`"); //Готовим запрос
         $query->execute(); //Выполняем запрос
         //Читаем все строчки и записываем в переменную $result
         $result = $query->fetchAll(PDO::FETCH_OBJ);
@@ -30,7 +31,7 @@ class TreeOX2 {
         //первый ключ - parent_id)
         $return = array();
         foreach ($result as $value) { //Обходим массив
-            $return[$value->parent_id][] = $value;
+            $return[$value->p_id][] = $value;
         }
         return $return;
     }

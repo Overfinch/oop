@@ -1,10 +1,11 @@
 <?php
 
-$db = new PDO("mysql:host=localhost;dbname=pdo","root",""); // инициализация БД
+$db = new PDO("mysql:host=localhost;dbname=tree","root",""); // инициализация БД
+$db->query("SET NAMES utf8");
 
 function showTree($p_id,$db){
     global $data; // глобальная переменная для записи в неё данных
-    $sql = "SELECT * FROM tree WHERE p_id=".$p_id;
+    $sql = "SELECT * FROM categories WHERE p_id=".$p_id;
     $result = $db->query($sql);
 
     $data .= "<ul>";

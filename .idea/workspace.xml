@@ -4,7 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/Traits/index2.php" line="33" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1275cc95-e3df-46eb-9172-adf7e59b70a5" name="Default" comment="" />
+    <list default="true" id="1275cc95-e3df-46eb-9172-adf7e59b70a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytree.php" afterPath="$PROJECT_DIR$/mytree.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytree2.php" afterPath="$PROJECT_DIR$/mytree2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tree.php" afterPath="$PROJECT_DIR$/tree.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tree2.php" afterPath="$PROJECT_DIR$/tree2.php" />
+    </list>
     <ignored path="oop.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -15,7 +22,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -25,15 +31,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="mytree.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytree.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="196">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="36" />
               <folding>
-                <marker date="1469443557512" expanded="true" signature="1099:1133" placeholder="..." />
-                <marker date="1469443557512" expanded="true" signature="1332:1366" placeholder="..." />
-                <marker date="1469443557512" expanded="true" signature="1502:1536" placeholder="..." />
+                <marker date="1471529386028" expanded="true" signature="228:264" ph="SELECT * FRO... categories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mytree2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytree2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <marker date="1471529495684" expanded="true" signature="283:327" ph="SELECT * FRO... categories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1471530247361" expanded="true" signature="627:701" ph="SELECT id,na... categories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tree2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+              <folding>
+                <marker date="1471530664018" expanded="true" signature="857:883" ph="SELECT * FRO... categories" />
+                <marker date="1471530664018" expanded="true" signature="2413:2494" ph="..." />
+                <marker date="1471530664018" expanded="true" signature="2428:2479" ph="..." />
               </folding>
             </state>
           </provider>
@@ -41,10 +83,12 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/loftblog_oop/index.php" />
         <option value="$PROJECT_DIR$/loftblog_oop/index2.php" />
         <option value="$PROJECT_DIR$/loftblog_oop/index3.php" />
         <option value="$PROJECT_DIR$/loftblog_oop/index4.php" />
@@ -92,19 +136,25 @@
         <option value="$PROJECT_DIR$/matt/reflection/index2.php" />
         <option value="$PROJECT_DIR$/matt/oop-procedural/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/mytree.php" />
+        <option value="$PROJECT_DIR$/mytree2.php" />
+        <option value="$PROJECT_DIR$/tree.php" />
+        <option value="$PROJECT_DIR$/tree2.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1292" />
-    <option name="height" value="1000" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -153,7 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,7 +224,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +233,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sql_lessons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="recentsLimit" value="5" />
@@ -249,23 +299,25 @@
       <option name="presentableId" value="Default" />
       <updated>1434966585964</updated>
       <workItem from="1469443501573" duration="90000" />
+      <workItem from="1471529305071" duration="1388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90000" />
+    <option name="totallyTimeSpent" value="1478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1292" height="1000" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18495297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18489583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280899" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711306" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -274,7 +326,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -298,35 +349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tree.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Traits/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Traits/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://PHP/\Products">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -867,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1881">
           <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,9 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3553">
           <caret line="187" column="23" selection-start-line="187" selection-start-column="23" selection-end-line="187" selection-end-column="23" />
-          <folding>
-            <marker date="1469443295356" expanded="true" signature="1422:1455" placeholder="SELECT * FRO... products" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,9 +904,51 @@
         <state relative-caret-position="38">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding>
-            <marker date="1469443557512" expanded="true" signature="1099:1133" placeholder="..." />
-            <marker date="1469443557512" expanded="true" signature="1332:1366" placeholder="..." />
-            <marker date="1469443557512" expanded="true" signature="1502:1536" placeholder="..." />
+            <marker date="1471529278679" expanded="true" signature="1099:1133" ph="..." />
+            <marker date="1471529278679" expanded="true" signature="1332:1366" ph="..." />
+            <marker date="1471529278679" expanded="true" signature="1502:1536" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <marker date="1471529386028" expanded="true" signature="228:264" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1471530247361" expanded="true" signature="627:701" ph="SELECT id,na... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytree2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <marker date="1471529495684" expanded="true" signature="283:327" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+          <folding>
+            <marker date="1471530664018" expanded="true" signature="857:883" ph="SELECT * FRO... categories" />
+            <marker date="1471530664018" expanded="true" signature="2413:2494" ph="..." />
+            <marker date="1471530664018" expanded="true" signature="2428:2479" ph="..." />
           </folding>
         </state>
       </provider>
