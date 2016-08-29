@@ -1,5 +1,7 @@
 <?php
 
+// Пример использования синглтона
+
 class Products{
 
     private $_db = null;
