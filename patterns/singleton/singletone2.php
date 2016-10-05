@@ -31,3 +31,4 @@ unset($pref); // удаляем ссылку на объект
 
 $pref2 = Preferences::getInstance(); // сново получаем тот же экземпляр объекта
 echo $pref2->getProperty("name"); // и получаем то же свойство что задали ранее
+
