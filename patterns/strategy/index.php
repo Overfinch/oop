@@ -1,36 +1,55 @@
 <?php
 
-interface FileNamingStrategy {
-    function createLinkName($fileName);
-}
+//реализация паттерна Strategy
 
-class ZipFile implements FileNamingStrategy {
-    public function createLinkName($fileName){
-        return "/downloads/".$fileName.".zip";
+class Lesson{
+    private $duration; // продолжительность
+    private $strategy; // объект Strategy
+
+    public function __construct($duration,Strategy $strategy){ // принимает подолжительность занятия, и Стратегию которая будет генерировать данные в зависимости от вида оплаты
+        $this->duration = $duration;
+        $this->strategy = $strategy;
+    }
+
+    public function getPayType(){
+        return $this->strategy->getPayType(); // выводит вид оплаты
+    }
+
+    public function getPrice(){
+        return $this->strategy->getPrice($this); // высчитывает стоимость через стратегию и передаёт экземпляр себя(в данном случае для того что бы стратегия знала $this->duration)
+    }
+
+    public function getDuration(){
+        return $this->duration;
     }
 }
 
-class TarGzFile implements FileNamingStrategy {
-    public function createLinkName($fileName){
-        return "/downloads/".$fileName.".tar.gz";
+abstract class Strategy{ // абстрактный класс стратегии
+    abstract function getPrice(Lesson $lesson);
+    abstract function getPayType();
+}
+
+class FixedStrategy extends Strategy{ // стратегия вывода информании по фиксированой оплате
+    function getPrice(Lesson $lesson){
+        return 20;
+    }
+
+    function getPayType(){
+        return "фиксированая цена";
     }
 }
 
-class FileStrategy {
-    protected $_type;
-
-    function __construct(){
-        if(strstr($_SERVER['HTTP_USER_AGENT'],"Windows")){
-            $this->_type = new ZipFile();
-        }else{
-            $this->_type = new TarGzFile();
-        }
+class TimedStrategy extends Strategy{ // стратегия вывода информации по почасовой оплате
+    function getPrice(Lesson $lesson){
+        return $lesson->getDuration() * 5; // здесь высчитывается цена, исходя из продолжительности ($lesson->getDuration())
     }
 
-    public function getLinkName($name){
-        return $this->_type->createLinkName($name);
+    function getPayType(){
+        return "почасовая оплата";
     }
 }
 
-$obj = new FileStrategy();
-echo $obj->getLinkName('some_file');
+$lesson1 = new Lesson(10, new TimedStrategy); // урок продолжительностью 10, и стратегией вывода почасовой оплаты (TimedStrategy)
+$lesson2 = new Lesson(4, new FixedStrategy); // урок продолжительностью 4, и стратегией вывода фиксированной оплаты (FixedStrategy)
+echo "Вид оплаты - {$lesson1->getPayType()}, цена - {$lesson1->getPrice()} <br>";
+echo "Вид оплаты - {$lesson2->getPayType()}, цена - {$lesson2->getPrice()} <br>";
